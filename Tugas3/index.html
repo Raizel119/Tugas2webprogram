@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
     </style>
 </head>
 
@@ -17,9 +18,9 @@
         <!-- Header -->
         <div class="container">
             <!-- Navigation -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <!-- Title -->
-                <a class="navbar-brand" href="#">Proweb</a>
+                <a class="navbar-brand" href="#" style="font-family: 'Sixtyfour Convergence';">Proweb</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -60,8 +61,9 @@
             <!-- Opening -->
             <div class="row">
                 <div class="col align-self-center">
-                    <h1 style="font-family: 'Lobster';">Hai!<br>Selamat Datang di Proweb</h1>
-                    <p class="mt-3 mb-4" style="font-family: 'Outfit';">Belajar pemrograman web mulai dari HTML, CSS, dan JavaScript</p>
+                    <h1 class="mt-3" style="font-family: 'Lobster';">Hai!<br>Selamat Datang di Proweb</h1>
+                    <p class="mt-3 mb-4" style="font-family: 'Outfit';">Belajar pemrograman web mulai dari HTML, CSS,
+                        dan JavaScript</p>
                     <a class="btn btn-primary" href="#" role="button">Let's Go!</a>
                 </div>
                 <div class="col d-none d-lg-block d-xl-block">
@@ -76,41 +78,53 @@
             <dic class="row">
                 <div class="col-md-4 mb-5">
                     <div class="card">
-                        <img src="pic/html.jpg" class="card-img-top" alt="html">
-                        <div class="card-body">
-                            <h5 class="card-title">HTML</h5>
-                            <p class="card-text" style="font-family: 'Outfit';">HTML is the standard markup language for Web pages.<br>
-                                With HTML you can create your own Website.<br>
-                                HTML is asy to learn - Enjoy it!
-                            </p>
-                            <a href="https://www.w3schools.com/html/default.asp" class="btn btn-outline-danger">Learn HTML</a>
-                        </div>
+                        <span class="border border-danger">
+                            <img src="pic/html.jpg" class="card-img-top" alt="html">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                                <p class="card-text" style="font-family: 'Outfit';">HTML is the standard markup language
+                                    for Web pages.<br>
+                                    With HTML you can create your own Website.<br>
+                                    HTML is asy to learn - Enjoy it!
+                                </p>
+                                <a href="https://www.w3schools.com/html/default.asp"
+                                    class="btn btn-outline-danger">Learn HTML</a>
+                            </div>
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
                     <div class="card">
-                        <img src="pic/css.jpg" class="card-img-top" alt="css">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS</h5>
-                            <p class="card-text" style="font-family: 'Outfit';">CSS is the language we use to style an HTML document.<br>
-                                CSS describes how HTML elements should be displayed.<br>
-                                This tutorial will teach you CSS.
-                            </p>
-                            <a href="https://www.w3schools.com/css/default.asp" class="btn btn-outline-primary">Learn CSS</a>
-                        </div>
+                        <span class="border border-primary">
+                            <img src="pic/css.jpg" class="card-img-top" alt="css">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text" style="font-family: 'Outfit';">CSS is the language we use to style
+                                    an HTML document.<br>
+                                    CSS describes how HTML elements should be displayed.<br>
+                                    This tutorial will teach you CSS.
+                                </p>
+                                <a href="https://www.w3schools.com/css/default.asp"
+                                    class="btn btn-outline-primary">Learn CSS</a>
+                            </div>
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <div class="card"></div>
-                        <img src="pic/js.jpg" class="card-img-top" alt="css">
-                        <div class="card-body">
-                            <h5 class="card-title">CSS</h5>
-                            <p class="card-text" style="font-family: 'Outfit';">JavaScript is the most popular programming language.<br>
-                                JavaScript is the programming language of the Web.<br>
-                                JavaScript is easy to learn.
-                            </p>
-                            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-outline-warning">Learn JS</a>
-                        </div>
+                    <div class="card">
+                        <span class="border border-warning">
+                            <img src="pic/js.jpg" class="card-img-top" alt="css">
+                            <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                                <p class="card-text" style="font-family: 'Outfit';">JavaScript is the most popular
+                                    programming language.<br>
+                                    JavaScript is the programming language of the Web.<br>
+                                    JavaScript is easy to learn.
+                                </p>
+                                <a href="https://www.w3schools.com/js/default.asp" class="btn btn-outline-warning">Learn
+                                    JS</a>
+                            </div>
+                        </span>
                     </div>
                 </div>
             </dic>
